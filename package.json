@@ -11,7 +11,7 @@
 	"author": "steve failla",
 	"license": "ISC",
 	"dependencies": {
-		"node-sass": "^4.12.0",
+		"node-sass": "^4.14.1",
 		"normalize.css": "^8.0.1",
 		"react": "^16.10.2",
 		"react-dom": "^16.10.2",
@@ -34,6 +34,8 @@
 		"babel-plugin-dynamic-import-node": "^2.3.0",
 		"clean-webpack-plugin": "^3.0.0",
 		"css-loader": "^3.2.0",
+		"enzyme": "^3.11.0",
+		"enzyme-adapter-react-16": "^1.15.2",
 		"file-loader": "^4.2.0",
 		"html-webpack-plugin": "^3.2.0",
 		"identity-obj-proxy": "^3.0.0",
@@ -43,9 +45,9 @@
 		"sass-loader": "^8.0.0",
 		"style-loader": "^1.0.0",
 		"webpack": "^4.25.1",
-		"webpack-bundle-analyzer": "^3.6.0",
+		"webpack-bundle-analyzer": "^3.8.0",
 		"webpack-cli": "^3.1.2",
-		"webpack-dev-server": "^3.10.3",
+		"webpack-dev-server": "^3.11.0",
 		"webpack-merge": "^4.2.2"
 	}
 }
