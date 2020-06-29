@@ -2,7 +2,7 @@
 
 react boilerplate for client project 
 
-`react` `react-router-dom` `sass or jss` `webpack` `jest`
+`react` `react-router-dom` `sass or jss` `webpack` `jest` `react-testing-library or enzyme`
 
 ## by Steve Failla
 
