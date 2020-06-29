@@ -1,12 +1,10 @@
 # react-boilerplate-client
 
-react boilerplate for client includes: 
+react boilerplate for client project 
 
-`react` `react-router` `sass` `webpack`
+`react` `react-router-dom` `sass or jss` `webpack` `jest`
 
-### by Steve Failla
-
-___
+## by Steve Failla
 
 ## To get started
 - in terminal type *npm install* or *yarn install* to install dependencies
