@@ -4,7 +4,7 @@ import { createMemoryHistory } from 'history';
 import { Router } from 'react-router-dom';
 
 import { ThemeProvider } from 'react-jss';
-import { theme } from './styles/theme';
+import { theme } from './src/styles/theme';
 
 // this is a handy function that I would utilize for any component
 // that relies on the router being in context (kent dodds)

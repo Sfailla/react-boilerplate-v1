@@ -1,7 +1,8 @@
 import React from 'react';
-import logo from '../svg/react-logo.svg';
+import logo from '../../svg/react-logo.svg';
+import { createUseStyles } from 'react-jss';
 
-const styles = {
+const useStyles = createUseStyles(theme => ({
 	header: {
 		height: '25rem',
 		backgroundColor: '#333',
@@ -28,13 +29,16 @@ const styles = {
 		width: '200px',
 		height: '150px'
 	}
-};
+}));
+
 const Header = () => {
+	const classes = useStyles();
+
 	return (
-		<div style={styles.header}>
-			<div style={styles.flexContainer}>
-				<h2 style={styles.heading}>New React Project</h2>
-				<img style={styles.svg} src={logo} alt="react-logo" />
+		<div className={classes.header}>
+			<div className={classes.flexContainer}>
+				<h2 className={classes.heading}>New React Project</h2>
+				<img className={classes.svg} src={logo} alt="react-logo" />
 			</div>
 		</div>
 	);

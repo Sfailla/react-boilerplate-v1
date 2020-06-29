@@ -1,23 +1,26 @@
 import React from 'react';
-import Header from '../Header.js';
+import Header from '../header/Header.js';
+import { ThemeProvider, createUseStyles } from 'react-jss';
+import { theme } from '../../styles/theme.js';
 
-const styles = {
+const useStyles = createUseStyles(theme => ({
 	content: {
 		marginTop: '5rem',
 		display: 'flex',
 		justifyContent: 'center',
 		alignItems: 'center'
 	}
-};
+}));
 
 const App = () => {
+	const classes = useStyles();
 	return (
-		<div>
+		<ThemeProvider theme={theme}>
 			<Header />
-			<div style={styles.content}>
-				<code>Remove / Edit Header.jsx file to get started</code>
+			<div className={classes.content}>
+				<code>Remove / Edit Header.js file to get started</code>
 			</div>
-		</div>
+		</ThemeProvider>
 	);
 };
 
