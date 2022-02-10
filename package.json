@@ -11,7 +11,7 @@
 	"author": "steve failla",
 	"license": "ISC",
 	"dependencies": {
-		"node-sass": "^4.14.1",
+		"node-sass": "^7.0.0",
 		"normalize.css": "^8.0.1",
 		"react": "^16.10.2",
 		"react-dom": "^16.10.2",
